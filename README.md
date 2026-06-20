@@ -117,6 +117,7 @@ XGBoost
 Seaborn
 Matplotlib
 ## 📈 Project Workflow
+
 Data Collection
        ↓
 Exploratory Data Analysis
