@@ -1,13 +1,15 @@
-🏦 Customer Churn Prediction using Machine Learning
-📌 Project Overview
+## 🏦 Customer Churn Prediction using Machine Learning
+
+## 📌 Project Overview
 
 Customer churn prediction is a classification problem that helps organizations identify customers who are likely to leave their services. This project uses Machine Learning techniques to analyze customer information and predict whether a customer will churn.
 
-🎯 Objective
+## 🎯 Objective
 
 The objective of this project is to build a predictive model that can identify potential customer churners using customer demographic and financial information, enabling businesses to take proactive retention measures.
 
-📂 Dataset Information
+ 
+## 📂 Dataset Information
 
 Dataset: Bank Customer Churn Dataset
 
@@ -30,7 +32,7 @@ Has Credit Card
 Is Active Member
 Estimated Salary
 Surname
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 The following analyses were performed:
 
@@ -43,7 +45,7 @@ Key Observation
 
 The dataset was highly imbalanced, with retained customers significantly outnumbering churned customers.
 
-⚙️ Data Preprocessing
+## ⚙️ Data Preprocessing
 
 Several preprocessing techniques were applied:
 
@@ -57,7 +59,7 @@ Feature Scaling
 StandardScaler was used to normalize numerical features.
 Pipeline Construction
 ColumnTransformer and Pipeline were implemented to automate preprocessing and model training.
-🤖 Machine Learning Models Implemented
+## 🤖 Machine Learning Models Implemented
 1. Logistic Regression
 
 Used as a baseline classification model for churn prediction.
@@ -74,7 +76,7 @@ Applied gradient boosting techniques to improve predictive performance.
 
 Implemented distance-based classification for customer churn prediction.
 
-📊 Initial Model Evaluation
+## 📊 Initial Model Evaluation
 
 Models were evaluated using:
 
@@ -87,7 +89,7 @@ Observation
 
 The models showed poor performance due to severe class imbalance in the dataset.
 
-⚖️ Handling Class Imbalance
+## ⚖️ Handling Class Imbalance
 
 To improve prediction performance, sampling techniques were applied:
 
@@ -97,7 +99,7 @@ Sampling Strategy = 0.9
 Random Under Sampling
 Reduced majority class samples.
 Created a balanced dataset for training.
-🚀 Improved Model
+## 🚀 Improved Model
 
 After balancing the dataset:
 
@@ -114,7 +116,7 @@ Imbalanced-Learn
 XGBoost
 Seaborn
 Matplotlib
-📈 Project Workflow
+## 📈 Project Workflow
 Data Collection
        ↓
 Exploratory Data Analysis
@@ -134,6 +136,6 @@ Class Imbalance Handling
 Model Retraining
        ↓
 Final Prediction
-🏆 Conclusion
+## 🏆 Conclusion
 
 Developed a Customer Churn Prediction system using multiple machine learning algorithms and advanced preprocessing techniques. Identified class imbalance as a major challenge and improved model performance using SMOTE and Random Under Sampling. The final balanced Logistic Regression model demonstrated improved predictive capability for customer churn detection.
